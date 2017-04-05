@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/second_floor"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:background="#DDDDDD"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <com.michael.notedemo.paint.CircleView
+                android:id="@+id/paint_color1"
+                android:layout_width="45dp"
+                android:layout_height="match_parent"
+                app:radius="16dp"
+                app:backgroundColor="@color/colorAccent"
+                app:strokeWidth = "@dimen/strokeWidth"
+                app:strokeColor = "#CCCCCC"/>
+            <com.michael.notedemo.paint.CircleView
+                android:id="@+id/paint_color2"
+                android:layout_width="45dp"
+                android:layout_height="match_parent"
+                app:radius="16dp"
+                app:backgroundColor="@color/colorPrimary"
+                app:strokeWidth = "@dimen/strokeWidth"
+                app:strokeColor = "#CCCCCC"/>
+            <com.michael.notedemo.paint.CircleView
+                android:id="@+id/paint_color3"
+                android:layout_width="45dp"
+                android:layout_height="match_parent"
+                app:radius="16dp"
+                app:backgroundColor="@color/colorBlueGrey"
+                app:strokeWidth = "@dimen/strokeWidth"
+                app:strokeColor = "#CCCCCC"/>
+            <com.michael.notedemo.paint.CircleView
+                android:id="@+id/paint_color4"
+                android:layout_width="45dp"
+                android:layout_height="match_parent"
+                app:radius="16dp"
+                app:backgroundColor="@color/black"
+                app:strokeWidth = "@dimen/strokeWidth"
+                app:strokeColor = "#CCCCCC"/>
+            <com.michael.notedemo.paint.CircleView
+                android:id="@+id/paint_color5"
+                android:layout_width="45dp"
+                android:layout_height="match_parent"
+                app:radius="16dp"
+                app:backgroundColor="@color/white"
+                app:strokeWidth = "@dimen/strokeWidth"
+                app:strokeColor = "#CCCCCC"/>
+            <com.michael.notedemo.paint.CircleView
+                android:id="@+id/paint_color6"
+                android:layout_width="45dp"
+                android:layout_height="match_parent"
+                app:radius="16dp"
+                app:backgroundColor="@color/white"
+                app:strokeWidth = "@dimen/strokeWidth"
+                app:strokeColor = "#CCCCCC"/>
+            <com.michael.notedemo.paint.CircleView
+                android:id="@+id/paint_color7"
+                android:layout_width="45dp"
+                android:layout_height="match_parent"
+                app:radius="16dp"
+                app:backgroundColor="@color/white"
+                app:strokeWidth = "@dimen/strokeWidth"
+                app:strokeColor = "#CCCCCC"/>
+            <ImageButton
+                android:id="@+id/paint_colorpick"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/ic_colorize_blue_grey_600_24dp"
+                android:layout_margin="4dp"
+                android:background="@drawable/touch_background_unlimit"
+                />
+        </LinearLayout>
+        <RadioGroup
+            android:id="@+id/radio_group_color"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/paint_radio1"
+                android:layout_width="45dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/radio_button"
+                android:button="@null"
+                />
+            <RadioButton
+                android:id="@+id/paint_radio2"
+                android:layout_width="45dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/radio_button"
+                android:button="@null"
+                />
+            <RadioButton
+                android:id="@+id/paint_radio3"
+                android:layout_width="45dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/radio_button"
+                android:button="@null"
+                />
+            <RadioButton
+                android:id="@+id/paint_radio4"
+                android:layout_width="45dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/radio_button"
+                android:button="@null"
+                />
+            <RadioButton
+                android:id="@+id/paint_radio5"
+                android:layout_width="45dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/radio_button"
+                android:button="@null"
+                />
+            <RadioButton
+                android:id="@+id/paint_radio6"
+                android:layout_width="45dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/radio_button"
+                android:button="@null"
+                />
+            <RadioButton
+                android:id="@+id/paint_radio7"
+                android:layout_width="45dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/radio_button"
+                android:button="@null"
+                />
+            <RadioButton
+                android:id="@+id/paint_radio8"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/radio_button"
+                android:button="@null"
+                android:visibility="invisible"
+                />
+        </RadioGroup>
+</RelativeLayout>

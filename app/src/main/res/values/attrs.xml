@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SwipeMenuLayout">
+        <attr name="swipeEnable" format="boolean"/>
+        <attr name="ios" format="boolean"/>
+        <attr name="leftSwipe" format="boolean"/>
+    </declare-styleable>
+    <attr name="radius" format="dimension" />
+    <attr name="backgroundColor" format="color" />
+    <attr name="strokeWidth" format="dimension"/>
+    <attr name="strokeColor" format="color"/>
+    <declare-styleable name="CircleView">
+        <attr name="radius"/>
+        <attr name="backgroundColor"/>
+        <attr name="strokeWidth"/>
+        <attr name="strokeColor"/>
+    </declare-styleable>
+</resources>
